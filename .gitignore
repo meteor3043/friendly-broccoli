@@ -1,0 +1,41 @@
+﻿# Visual Studio and build output (at any directory depth)
+.vs/
+x64/
+Debug/
+Release/
+bin/
+obj/
+
+# Per-user settings
+*.user
+*.suo
+
+# Installers and packaged binaries
+*.msi
+*.msp
+*.msix
+*.appx
+*.appxbundle
+*.exe
+*.dmg
+*.pkg
+*.deb
+*.rpm
+*.zip
+*.7z
+*.tar
+*.gz
+
+# Credentials and private keys
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.ppk
+id_rsa*
+id_ed25519*
+secrets.*
+*secret*
+*credential*
